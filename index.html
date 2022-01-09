@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(header-background.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .img {
+            display: inline-block;
+            margin: 10px 100px;
+        }
+
+        .img h1 {
+            display: inline-block;
+            color: darkblue;
+        }
+
+        nav ul {
+            list-style: none;
+            float: right;
+            margin-right: 100px;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: blue;
+            padding: 8px 10px;
+            border-radius: 5px;
+        }
+
+        .container{
+            height: 500px;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        .container img {
+            width: 450px;
+            position: absolute;
+            right: 70px;
+            top: 20px
+        }
+
+        .content{
+            margin-top: 100px;
+            margin-left: 150px;
+            display: inline-block;
+        }
+        .content h1{
+            color: darkblue;
+            font-family: cursive;
+            line-height: 10mm;
+        }
+        .content p{
+            color: #2e2e2f;
+            margin-top: 15px;
+        }
+        .button{
+            margin-top: 25px;
+            display: inline-block;
+        }
+        .button a{
+            margin-right: 8px;
+            text-decoration: none;
+            padding: 8px 12px;
+        }
+        .btn{
+            background-color: #ff6c02;
+            border-radius: 20px;
+            color: white;
+        }
+        .btn1{
+            border: 1px solid #ff6c02;
+            border-radius: 20px;
+            color: #ff6c02;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="img">
+            <img src="favicon.png">
+            <h1>Kora</h1>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Intro</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Details</a></li>
+            <li><a href="">Drop</a></li>
+            <li><a href="">Start selling</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h1>Now is the time <br>to start selling <br>things online</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing<br> elit.
+                Qui deserunt tempora provident eaque assumen</p>
+                <div class="button">
+                <a href="" class="btn">sign up for free</a>
+                <a href="" class="btn1">Discover</a>
+                </div>
+        </div>
+        <img src="header.png">
+    </div>
+</body>
+
+</html>
